@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer__content">
         <p>© 2023 Food Generator Inc. All rights reserved.</p>
         <div className="footer__made-by">
-          <p>Made with ❤️ by Toyin</p>
+          <p>Made with ❤️ by <a href="https://github.com/Toyin5">Toyin</a></p>
         </div>
       </div>
     </footer>

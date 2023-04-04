@@ -1,4 +1,5 @@
 import Random from "./Random";
+import Footer from "./Footer";
 import logo from '../public/food.svg'
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
             <p className="app__subtitle">Welcome, Hacker!</p>
             <p className="app__description">Wanna have a meal out?</p>
             <Random />
+	    <Footer />
         </div>
     );
 }
